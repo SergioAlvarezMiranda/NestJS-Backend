@@ -27,7 +27,7 @@ export class Pokemon {
         console.log(`${ this.name.toUpperCase() }!!`)
     }
 
-    @Deprecated('Most use speak2 method instead')
+    @Deprecated('Most use speak2 method instead') // este decorador indica que  el speak esta obsoleto
     speak() {
         console.log(`${ this.name }, ${ this.name }!`)
     }

@@ -1,4 +1,8 @@
+import { charmander } from './bases/03-clases'
 import './style.css'
+// import { name,hora,isvalid,templateString } from './bases/01-types'
+// import {pokemons} from './bases/02-types'
+
 // import {name, hora} from './bases/01-types.ts'
 // import {bulbasaur} from './bases/02-types.ts'
 
@@ -7,7 +11,7 @@ import './style.css'
 
 // import {nota  } from './bases/ejercicio/compuesto_estructurado';
 
-import { letra } from './bases/EstructuraDatos/arreglo';
+// import { letra } from './bases/EstructuraDatos/arreglo';
 
 
 
@@ -16,11 +20,11 @@ const app = document.querySelector<HTMLDivElement>('#app')!
 
 
 
-app.innerHTML = `
-  <p>${letra}</p>
+// app.innerHTML = `<p>${templateString}</p>`
+app.innerHTML = `<p></p>`
 
 
-// app.innerHTML = `
+  // app.innerHTML = `
 //   <p id="contador">0</p>
 //   <button id="btnUp">+</button>
 //   <button id="btnDown">-</button>
